@@ -37,7 +37,7 @@
         <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
         <nav class="main-nav" aria-label="Navegación principal">${nav.map(([key, label, path]) => `<a${key === active ? ' class="active" aria-current="page"' : ''} href="${toSite(path)}">${label}</a>`).join('')}</nav>
         <div class="header-social" aria-label="Redes profesionales">
-          <a class="icon-button icon-github" href="https://github.com/marcoshernandezti" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Marcos Hernández">${iconImg('github.svg', '')}</a>
+          <a class="icon-button icon-github" href="https://github.com/marcoshernandezdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Marcos Hernández">${iconImg('github.svg', '')}</a>
           <a class="icon-button" href="https://www.linkedin.com/in/marcoshernandezalvarez/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Marcos Hernández">${iconImg('linkedin.svg', '')}</a>
         </div>
       </div></header>`;
